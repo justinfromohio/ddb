@@ -1,0 +1,449 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "myriad-pro",sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+ .img-responsive {
+    display: inline;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "bebas-neue",sans-serif;
+    font-style: normal;
+    color: rgb(255,255,255);
+    letter-spacing: 5px;
+ 
+}
+
+h1 {
+    font-size: 4.5em;
+}
+
+h2 {
+    font-size: 2.75em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+
+
+.video-container {
+    max-width: 750px;
+    margin: 0 auto;
+
+
+}
+
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+
+/* Header */
+.navbar {
+    background-color: #2A2A2A;
+    margin-bottom: -20px;
+}
+
+.navbar-default {
+    border-color: #2A2A2A;
+}
+
+.header-logo {
+    padding: .75em;
+    height: 70px;
+}
+
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    background: url(../img/dublin-overhead.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+
+
+.header p {
+    color: rgb(255,255,255);
+    font-size: 1.15em;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 25px 0 0 0;
+
+}
+
+.header img {
+    padding-top: 30px;
+}
+
+
+
+/* About */
+
+.about {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+    color: rgb(255,255,255);
+    padding: 50px 10px;
+    background: url(../img/power-substation-2.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+.lead {
+    color: white;
+}
+
+
+/*RSVP*/
+.rsvp{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+    color: rgb(255,255,255);
+    background-color: #2A2A2A;
+    padding: 50px 10px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    /*max-width: 950px;*/
+    margin: 0 auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.callout h1 {
+    color: rgb(0,0,0);
+    text-align: center;
+}
+.callout p {
+    color: rgb(0,0,0);
+    margin: 15px auto;
+    max-width: 950px;
+
+}
+
+.full-width-img {
+    width: 100%;
+}
+
+
+/*Data-Center-Floorplan*/
+#dublin-datacenter {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+    color: rgb(255,255,255);
+    padding: 50px 10px;
+    background: url(../img/concrete-roof-2.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.about p {
+    font-size: 1.1em;
+}
+
+/*Services*/
+
+.security-power h1 {
+    font-size: 4em;
+}
+
+.security-power p {
+    color: rgb(255,255,255);
+}
+
+
+
+.headline-picture-box-left,
+.content-box-right,
+.content-box-left,
+.headline-picture-box-right {
+    width: 50%;
+    height: 400px;
+}
+
+
+.content-box-right {
+    background-color: rgb(114,113,113);
+    padding: 5% 3%;
+    float: right;
+
+}
+
+.content-box-left{
+    background-color: rgb(114,113,113);
+    padding: 5% 3%;
+    float: left;
+
+}
+
+.headline-picture-box-left {
+    float: left;
+    background: url(../img/security-aisle.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline-picture-box-right {
+    float: left;
+    background: url(../img/generator.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.sponsor-section img {
+    max-width: 60%;
+    padding: 25px 0;
+
+}
+
+.media-heading {
+    margin-top: 10px;
+}
+
+/*Float Clearfix*/
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/*Cloud Hub*/
+
+#cloud-hub {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    margin: 0 auto;
+    color: rgb(255,255,255);
+    padding: 50px 10px;
+    /*background-color: red;*/
+    background: url(../img/dc-aisle.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+
+
+
+
+@media(max-width:768px) {
+
+.header p,
+.callout p{
+
+    margin: 10px;
+    font-size: 1em;
+}
+
+    
+}
+
+
+
+
+
+@media(max-width:768px) {
+
+.header {
+    height: 60%;
+}
+
+
+
+
+.headline-picture-box-left,
+.content-box-right,
+.content-box-left,
+.headline-picture-box-right {
+    width: 100%;
+    height: 400px;
+}
+
+.content-box-right {
+   background: url(../img/security-aisle-mobile.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.content-box-left {
+   background: url(../img/generator-mobile.png) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+
+}
+
+@media(max-width:568px) {
+
+
+.callout h1 {
+    font-size: 3em;
+}
+
+.about {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    margin: 0 auto;
+}
+
+.about h1 {
+    font-size: 3em;
+}
+
+#dublin-datacenter h1 {
+    font-size: 3em;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
